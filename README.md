@@ -1,8 +1,24 @@
 # homebrew-tap
 
-Official Homebrew tap for [rem](https://github.com/shettyh/rem) — local-first spaced repetition across desktop, terminal, and iPhone.
+Official Homebrew tap for projects by [@shettyh](https://github.com/shettyh).
 
-## Install (macOS)
+## Formulas
+
+### [shunt](https://github.com/shettyh/shunt) (macOS & Linux)
+
+Ultra-lean, pluggable Rust gateway for HTTP APIs, multi-provider AI, and MCP.
+
+```sh
+brew install shettyh/tap/shunt
+```
+
+`Formula/shunt.rb` is updated automatically by `shettyh/shunt`'s release workflow.
+
+## Casks
+
+### [rem](https://github.com/shettyh/rem) (macOS)
+
+Local-first spaced repetition across desktop, terminal, and iPhone.
 
 ```sh
 brew install --cask shettyh/tap/rem
