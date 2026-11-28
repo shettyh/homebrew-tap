@@ -1,9 +1,9 @@
 cask "rem" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.28.0"
-  sha256 arm:   "0e9fb62ff9229cba183988b89023e297c094a2d9445d4a6f25a801929cb2b801",
-         intel: "5c98f6bc36f6eb0bb95d0800c13c89305ccd82a040a3476e96319183b3917a87"
+  version "0.29.0"
+  sha256 arm:   "258f394a27f3c6d68bbab8e50b27ca7a810231ccd8d33d3e2c2530d4f4d09fcf",
+         intel: "65fb797ed9287a7fcf3375bb33ebf8472129036828ec159cefaf8ca238a58c09"
 
   url "https://github.com/shettyh/rem/releases/download/v#{version}/rem_#{version}_#{arch}.dmg",
       verified: "github.com/shettyh/rem/"
